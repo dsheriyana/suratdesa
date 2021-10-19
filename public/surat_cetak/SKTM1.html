@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <style type="text/css">
+        /* Kode CSS Untuk PAGE ini dibuat oleh http://jsfiddle.net/2wk6Q/1/ */
+            body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #FFFFFF;
+                font: 12pt "Times New Roman";
+                line-height: 1.6;
+            }
+            * {
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+            }
+
+            tr.border_bottom td {
+                border-bottom: 1px solid black;
+                border-bottom: double;
+                padding-bottom: 10px;
+            }
+            .page {
+                width: 210mm;
+                min-height: 330mm;
+                padding: 10mm;
+                margin: 10mm auto;
+                border: 1px #D3D3D3 solid;
+                border-radius: 5px;
+                background: white;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            }
+            .subpage {
+                
+                height: 310mm;
+            }
+            
+            @page {
+                size: F4;
+                margin: 0;
+            }
+            @media print {
+                html, body {
+                    width: 210mm;
+                    height: 330mm;        
+                }
+                .page {
+                    margin: 0;
+                    border: initial;
+                    border-radius: initial;
+                    width: initial;
+                    min-height: initial;
+                    box-shadow: initial;
+                    background: initial;
+                    page-break-after: always;
+                }
+            }
+
+            .center{
+                text-align: center;
+            }
+            .tab {text-indent: 50px; margin-top:20px;margin-bottom:30px;text-align: justify;}
+            .isisurat{
+                width: 95%;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="book">
+            <div class="page">
+                <table style="width: 100%;border-collapse: collapse;">
+                    <tr class="border_bottom">
+                        <td>
+                            <img src="logo_pemda.png" style="width: 25mm; height: auto;"/>
+                        </td>
+                        <td style="text-align: center;">
+                            <div style="font-weight: bold; font-size: 18pt;">PEMERINTAH KABUPATEN MAJALENGKA</div> 
+                            <div style="font-weight: bold; font-size: 18pt;">KECAMATAN KERTAJATI</div>  
+                            <div style=" font-size: 23pt;">KANTOR KEPALA DESA MEKARMULYA</div>
+                            Jl Sukajaya No. 311, Desa Mekarmulya, Kecamatan Kertajati, Majalengka 45457
+                        </td>
+                    </tr>
+                </table>  
+                <br/><br/>
+                <div class="isisurat">
+                    <div class="center" style="font-size: 14pt; text-decoration: underline;"><b>SURAT KETERANGAN TIDAK MAMPU (SKTM)</b></div>
+                    <div class="center">Nomor : 477.4/.../Pem-Des</div>
+                    <div class="tab">
+                        Yang bertandatangan dibawah ini Kepala Desa Mekarmulya Kecamatan Kertajati kabupaten Majelengka, menerangankan bahwa :
+                    </div>
+
+                    <table style="width: 80%; margin: 0 auto;">
+                        <tr>
+                            <td style="width: 35%;">
+                                Nama
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                ARIZAL HAFIZH
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                NIK
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                3210082709960001
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Tempat, Tanggal Lahir
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                Majalengka, 20-01-2002
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Jenis Kelamin
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                Laki-laki
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Kewarganegaraan
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                Indonesia
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Pekerjaan
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                Buruh Harian Lepas
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:top">
+                            <td>
+                                Alamat
+                            </td>
+                            <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                            <td>
+                                Blok Sabtu RT/RW 002/001 Desa Mekarmulya Kec. Kertajati, Kab. Majalengka
+                            </td>
+                        </tr>
+
+                    </table>
+                    <div class="tab">
+                        Berdasarkan data dan catatan yang ada, sampai dikeluarkannya surat keterangan ini, nama orang tersebut diatas tercatat sebagai penduduk Desa kami  yang tergolong <b>KELUARGA TIDAK MAMPU KURANG MAMPU/PRA SEJAHTERA.</b>
+                    </div>
+                    <div class="tab">
+                        Demikian Surat Keterangan ini dibuat dengan sebenarnya,  agar dapat dipergunakan sebagaimana mestinya.
+                    </div>
+                    
+                    <br/>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                                Mekarmulya, 30 Januari 2021
+                            </td>
+                        </tr>
+                        <tr style="vertical-align:bottom">
+                            <td style="width:50%;text-align: center;">
+                                <!-- Mengetahui, <br/>
+                                Kepala Desa Mekarmulya
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <u><?= $setting['nama_kades']; ?></u> -->
+                            </td>
+                            <td style="width:50%;text-align: center;">
+                                Mengetahui, <br/>
+                                Kepala Desa Mekarmulya
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <u><?= $setting['nama_kades']; ?></u>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        
+        
+        </div>
+    </body>
+</html>

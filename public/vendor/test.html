@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Syndash - Bootstrap4 Admin Template</title>
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!--Data Tables -->
+	<link href="assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/plugins/datatable/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+	<!--plugins-->
+	<link rel="stylesheet" href="assets/plugins/notifications/css/lobibox.min.css" />
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<!-- Icons CSS -->
+	<link rel="stylesheet" href="assets/css/icons.css" />
+	<!-- App CSS -->
+	<link rel="stylesheet" href="assets/css/app.css" />
+	<!-- Keyboard CSS -->  
+	<link rel="stylesheet" href="assets/plugins/kiosk/dist/index.css?v=1.4.0" />
+</head>
+
+<body class="bg-forgot">
+	<!-- wrapper -->
+<form action="index">
+	<div class="wrapper">
+		<div class="authentication-forgot d-flex align-items-center form-masuk">
+			<!-- <div align="center"> -->
+			<div class="card shadow-lg forgot-box">
+				<div class="card-body p-md-5">
+					<div class="text-center">
+						<img src="assets/images/icons/logo-majalengka.png" width="90" alt="" />
+						<h5>APLIKASI PELAYANAN MASYARAKAT<br>
+							ANJUNGAN SURAT KETERANGAN DESA MANDIRI<br>
+							DESA MEKARMULYA<br>
+							KECAMATAN KERTAJATI</h5>
+					</div>
+					<div class="form-group mt-5">
+						<input class="form-control form-control-lg radius-30 js-kioskboard-input" data-kioskboard-type="numpad" type="text" placeholder="Masukkan NIK" readonly="false" />
+						<!-- <input class="form-control form-control-lg radius-30 js-kioskboard-input" data-kioskboard-type="all" type="text" placeholder="Try me. (With special character keys)" /> -->
+					</div>
+					<button type="submit" class="btn btn-primary btn-lg btn-block radius-30">Masuk</button> 
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+	<!-- end wrapper -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!--plugins-->
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	<!-- Keyboard JS -->
+	<script src="assets/plugins/kiosk/dist/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/kiosk/dist/833245c2e4.js"></script>
+	<script src="assets/plugins/kiosk/dist/index-tooltip.js"></script>
+	<script src="assets/plugins/kiosk/dist/kioskboard-aio-1.4.0.min.js"></script>
+	<script src="assets/plugins/kiosk/dist/index.js?v=1.4.0"></script>	
+	<!--notification js -->
+	<script src="assets/plugins/notifications/js/lobibox.min.js"></script>
+	<script src="assets/plugins/notifications/js/notifications.min.js"></script>
+	<script src="assets/plugins/notifications/js/notification-custom-script.js"></script>
+	<!--Data Tables js-->
+	<script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			//Default data table
+			$('#example').DataTable();
+			var table = $('#example2').DataTable({
+				lengthChange: false,
+				buttons: ['copy', 'excel', 'pdf', 'print', 'colvis']
+			});
+			table.buttons().container().appendTo('#example2_wrapper .col-md-6:eq(0)');
+		});
+	</script>
+</body>
+
+</html>
